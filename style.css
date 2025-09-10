@@ -1,0 +1,133 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 30px 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+  color: #f9d342;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-top: 5px;
+  color: #fff;
+}
+
+#quiz h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  background-color: #1e3c72;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+label:hover {
+  background-color: #28527a;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+#answer-btn { background-color: #f9d342; color: #000; }
+#answer-btn:hover { background-color: #ffd700; }
+
+#next-btn { background-color: #28a745; color: #fff; }
+#next-btn:hover { background-color: #218838; }
+
+#restart-btn { background-color: #dc3545; color: #fff; }
+#restart-btn:hover { background-color: #c82333; }
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#score {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #f0f0f0;
+}
+
+footer a {
+  color: #f9d342;
+  text-decoration: none;
+}
+
+#prize-bar {
+  background-color: #555;
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#prize-progress {
+  background-color: #f9d342;
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s;
+}
+
+/* Media Queries para mobile */
+@media (max-width: 480px) {
+  h1 { font-size: 2.2em; }
+  h2 { font-size: 1.1em; }
+  #quiz h3 { font-size: 1.2em; }
+  button { padding: 10px 20px; font-size: 0.9em; }
+  .container { padding: 20px; }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quimilhão - O Jogo do Milhão de Química</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quimilhão</h1>
+    <h2>O Jogo do Milhão de Química</h2>
+    
+    <div id="prize-bar">
+      <div id="prize-progress"></div>
+    </div>
+    
+    <div id="quiz"></div>
+    
+    <div class="buttons">
+      <button id="answer-btn" onclick="checkAnswer()">Responder</button>
+      <button id="next-btn" onclick="nextQuestion()">Próxima</button>
+      <button id="restart-btn" onclick="restartQuiz()">Jogar novamente</button>
+    </div>
+    
+    <p id="result"></p>
+    <p id="score">Pontuação: 0</p>
+  </div>
+
+  <footer>
+    Coded by Julinho (<a href="https://github.com/juliopsoliveira" target="_blank">GitHub</a>) - Diretor de Tecnologia / Tech Lead do Time 7
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
