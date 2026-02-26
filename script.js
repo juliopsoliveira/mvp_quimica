@@ -2,7 +2,7 @@ const questions = [
   { question: "O que é distribuição eletrônica?", options: ["A forma como os elétrons se organizam nas camadas do átomo.", "A quantidade de prótons no núcleo.", "A divisão dos nêutrons em camadas.", "O número atômico do elemento."], answer: 0 },
   { question: "Qual é a ordem correta de preenchimento dos elétrons?", options: ["K, L, M, N, O, P, Q.", "A, B, C, D, E.", "Nêutron → Próton → Elétron.", "Núcleo → Camada."], answer: 0 },
   { question: "Quantos elétrons cabem na 1ª camada (K)?", options: ["1", "2", "4", "8"], answer: 1 },
-  { question: "Quantos elétrons cabem na 2ª camada (L)?", options: ["8", "10", "2", "18"], answer: 0 },
+  { question: "Quantos elétrons cabem na 2ª camada (L)?", options: ["32", "10", "2", "18"], answer: 0 },
   { question: "Qual camada pode ter até 18 elétrons?", options: ["K", "L", "M", "N"], answer: 2 },
   { question: "Qual é o número máximo de elétrons na camada N?", options: ["8", "18", "32", "2"], answer: 1 },
   { question: "Qual princípio determina que os elétrons ocupam primeiro os orbitais de menor energia?", options: ["Princípio de Pauli", "Princípio de Hund", "Princípio da Construção (Aufbau)", "Número Atômico"], answer: 2 },
